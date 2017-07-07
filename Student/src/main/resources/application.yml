@@ -1,0 +1,15 @@
+spring:
+  profiles:
+    active: pro
+
+#下面配置的参数在application-dev.yml和application-pro.yml中都起作用
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/dbstudent
+    username: root
+    password: 123456
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+

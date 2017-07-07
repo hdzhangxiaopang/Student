@@ -1,0 +1,8 @@
+server:
+#配置项目端口号 默认端口号为8080
+  port: 8080
+  #配置项目名称
+  context-path: /student
+student:
+    grade: freshman
+    age: 23
